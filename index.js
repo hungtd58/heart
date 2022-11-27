@@ -118,7 +118,7 @@ function init() {
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(WIDTH, HEIGHT);
 
-    const container = document.getElementById('container-heart');
+    const container = document.getElementById('container');
     container.appendChild(renderer.domElement);
 
     //
