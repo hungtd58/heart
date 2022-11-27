@@ -12,9 +12,9 @@ function init() {
 
     scene = new THREE.Scene();
 
-    const amount = 3000;
+    const amount = 2400;
     const amountBound = 1000;
-    const radius = 15;
+    const radius = 18;
 
     const positions = new Float32Array(amount * 3);
     const colors = new Float32Array(amount * 3);
@@ -168,9 +168,9 @@ function render() {
     // sphere.scale.y = 1 + Math.abs(timeCamera % 100 - 50) / 300;
     // sphere.scale.z = 1 + Math.abs(timeCamera % 100 - 50) / 600;
 
-    sphere.scale.x = 1 + Math.abs(Math.sin(timeCamera / 50)) / 7
-    sphere.scale.y = 1 + Math.abs(Math.sin(timeCamera / 50)) / 7
-    sphere.scale.z = 1 + Math.abs(Math.sin(timeCamera / 50)) / 7
+    sphere.scale.x = 1 + Math.abs(Math.sin(timeCamera / 50)) / 10
+    sphere.scale.y = 1 + Math.abs(Math.sin(timeCamera / 50)) / 10
+    sphere.scale.z = 1 + Math.abs(Math.sin(timeCamera / 50)) / 10
 
     sphereBound.scale.x = 1 + Math.abs(Math.sin(timeCamera / 50)) / 15
     sphereBound.scale.y = 1 + Math.abs(Math.sin(timeCamera / 50)) / 15
