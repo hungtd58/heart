@@ -168,13 +168,13 @@ function render() {
     // sphere.scale.y = 1 + Math.abs(timeCamera % 100 - 50) / 300;
     // sphere.scale.z = 1 + Math.abs(timeCamera % 100 - 50) / 600;
 
-    sphere.scale.x = 1 + Math.abs(Math.sin(timeCamera / 50)) / 10
-    sphere.scale.y = 1 + Math.abs(Math.sin(timeCamera / 50)) / 10
-    sphere.scale.z = 1 + Math.abs(Math.sin(timeCamera / 50)) / 10
+    sphere.scale.x = 1 + Math.abs(Math.sin(timeCamera / 50)) / 7
+    sphere.scale.y = 1 + Math.abs(Math.sin(timeCamera / 50)) / 7
+    sphere.scale.z = 1 + Math.abs(Math.sin(timeCamera / 50)) / 7
 
-    sphereBound.scale.x = 1 + Math.abs(Math.cos(timeCamera / 50)) / 20
-    sphereBound.scale.y = 1 + Math.abs(Math.cos(timeCamera / 50)) / 20
-    sphereBound.scale.z = 1 + Math.abs(Math.cos(timeCamera / 50)) / 20
+    sphereBound.scale.x = 1 + Math.abs(Math.sin(timeCamera / 50)) / 15
+    sphereBound.scale.y = 1 + Math.abs(Math.sin(timeCamera / 50)) / 15
+    sphereBound.scale.z = 1 + Math.abs(Math.sin(timeCamera / 50)) / 15
 
     const geometry = sphere.geometry;
     const attributes = geometry.attributes;
